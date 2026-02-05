@@ -14,7 +14,7 @@ env:
   FULL_IMAGE_NAME: ghcr.io/ddktoplabs/speaches
 jobs:
   docker:
-    runs-on: ubuntu-24.04-4core-x86
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
